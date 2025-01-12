@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-primary-color: #343045;
+  --accent-color: #C0B7E8;
+  --background-color: #302C42;
+  --gradient-text: linear-gradient(45deg, #C0B7E8, #8176AF);
+  --gradient-navbar: linear-gradient(to right, #3A3456 90%, #211E2E 100%);
+  --gradient-button: linear-gradient(to right, #8176AF, #C0B7E8);
+  --gradient-box: radial-gradient(circle, #433D60, #211E2E);
+}
+
 html {
   box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 *,
 *::after,
 *::before {
   box-sizing: inherit;
+}
+
+* {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  color: var(--primary-color);
 }
 
 ul[class],
@@ -49,4 +70,126 @@ select {
 
 a {
   text-decoration: none;
+}
+
+body {
+  background: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-image: var(--gradient-button);
+  transition: all .9s;
+}
+
+.btn a {
+  color: var(--secondary-primary-color);
+}
+
+.btn:hover {
+  background-image: var(--gradient-text);
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.title {
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: 300;
+}
+
+.subtitle-info {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.titleDiv {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  letter-spacing: 1.5px;
+  font-size: 3rem;
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .titleDiv {
+    align-items: center;
+    margin: 0 auto;
+    font-size: 2.7rem;
+  }
+
+  .text-info {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+
+  .titleDiv {
+    font-size: 2.5rem;
+  }
+
+  .subtitle-info {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
+  .titleDiv {
+    font-size: 2rem;
+  }
+
+  .subtitle-info {
+    font-size: 1.5rem;
+  }
 }
