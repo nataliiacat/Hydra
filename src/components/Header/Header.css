@@ -1,0 +1,111 @@
+.header {
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.navList {
+  gap: 1.5rem;
+  margin: auto 0;
+
+}
+
+.btnDiv {
+  gap: 1rem;
+}
+
+.logo img {
+  height: 3rem;
+}
+
+.logo-link {
+  gap: 1rem;
+}
+
+.navLink:hover {
+  color: var(--accent-color);
+}
+
+.contact-btn {
+  background-color: var(--background-color);
+  border: 2px solid var(--primary-color);
+  padding: 0.95rem 2rem;
+  border-radius: 40px;
+  outline: none;
+  cursor: pointer;
+  transition: all .9s;
+}
+
+.contact-btna {
+  color: var(--secondary-primary-color);
+}
+
+.contact-btn:hover {
+  background-image: var(--gradient-text);
+}
+
+.contact-btn:active {
+  transform: scale(0.9);
+}
+
+.closeNavbar,
+.toggleNavbar {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: .5rem;
+  }
+
+  .navBar {
+    position: absolute;
+    background-image: var(--gradient-navbar);
+    height: 100%;
+    width: 70%;
+    right: -500rem;
+    z-index: 2000;
+    transition: .5s ease-in-out;
+    padding: 1rem;
+  }
+
+  .navList {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .navLink {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  .closeNavbar {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+  }
+
+  .closeNavbar:hover {
+    top: .2rem;
+  }
+
+  .activeNavbar {
+    padding: 80px 15px;
+    top: 0;
+    right: 0;
+  }
+
+  .closeNavbar,
+  .toggleNavbar {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .navBar {
+    width: 100%;
+  }
+}

@@ -6,7 +6,7 @@
   --accent-color: #C0B7E8;
   --background-color: #302C42;
   --gradient-text: linear-gradient(45deg, #C0B7E8, #8176AF);
-  --gradient-navbar: linear-gradient(to right, #3A3456 90%, #211E2E 100%);
+  --gradient-navbar: linear-gradient(to right, #3A3456, #211E2E, #3A3456);
   --gradient-button: linear-gradient(to right, #8176AF, #C0B7E8);
   --gradient-box: radial-gradient(circle, #433D60, #211E2E);
 }
@@ -85,6 +85,7 @@ section {
 .container {
   width: 100%;
   max-width: 1300px;
+  margin: auto 0;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
