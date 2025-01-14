@@ -80,12 +80,13 @@ body {
 
 section {
   padding: 4rem 0;
+  width: 100%;
 }
 
 .container {
   width: 100%;
   max-width: 1300px;
-  margin: auto 0;
+  margin: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -126,6 +127,8 @@ section {
 
 .title {
   font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size: 3rem;
 }
 
 .subtitle {
@@ -162,7 +165,7 @@ section {
     font-size: 2.7rem;
   }
 
-  .text-info {
+  .hide-on-small{
     display: none;
   }
 }
