@@ -14,7 +14,7 @@ const Header = () => {
   }
   return (
     <>
-      <header className="header flex">
+      <header className="header container flex">
         <div className="logo">
           <a href="#" className="logo-link flex">
             <img src={logoIcon} alt="logo icon" />

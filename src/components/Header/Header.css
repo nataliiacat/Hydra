@@ -62,9 +62,9 @@
   .navBar {
     position: absolute;
     background-image: var(--gradient-navbar);
-    height: 100%;
-    width: 70%;
-    right: -500rem;
+    height: max-content;
+    width: 100%;
+    top: -500rem;
     z-index: 2000;
     transition: .5s ease-in-out;
     padding: 1rem;
@@ -104,8 +104,3 @@
   }
 }
 
-@media screen and (max-width: 448px) {
-  .navBar {
-    width: 100%;
-  }
-}

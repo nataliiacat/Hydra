@@ -55,7 +55,7 @@
   border-left: 2px solid rgba(0, 0, 0, 0.13);
 }
 
-@media (max-width: 1027px) {
+@media (max-width: 1030px) {
   .contentHome {
     flex-direction: column-reverse;
   }
@@ -64,9 +64,7 @@
     justify-content: center;
     margin-top: 0;
   }
-}
 
-@media (max-width: 768px) {
   .infoHome {
     flex-direction: column;
     width: max-content;
