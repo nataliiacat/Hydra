@@ -13,33 +13,34 @@ export const about = {
 };
 export const services = {
   info: "Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus.Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc.Viverra aliquet eget sit amet tellus.Ornare lectus sit amet est placerat in.Lectus magna fringilla urna porttitor rhoncus vitae",
-  slider: [
-    {
-      id: 1,
-      image: simulation,
-      title: "SIMULATION",
-      text: "Vitae sapien pellentesque habitant morbinunc.Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
-    },
-    {
-      id: 2,
-      image: education,
-      title: "EDUCATION",
-      text: "Vitae sapien pellentesque habitant morbinunc.Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
-    },
-    {
-      id: 3,
-      image: self,
-      title: "SELF-CARE",
-      text: "Vitae sapien pellentesque habitant morbinunc.Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
-    },
-    {
-      id: 4,
-      image: outdoor,
-      title: "OUTDOOR",
-      text: "Vitae sapien pellentesque habitant morbinunc.Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
-    }
-  ]
 };
+
+export const slider = [
+  {
+    id: 1,
+    image: simulation,
+    title: "SIMULATION",
+    text: "Vitae sapien pellentesque habitant morbinunc.Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
+  },
+  {
+    id: 2,
+    image: education,
+    title: "EDUCATION",
+    text: "Vitae sapien pellentesque habitant morbinunc.Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
+  },
+  {
+    id: 3,
+    image: self,
+    title: "SELF-CARE",
+    text: "Vitae sapien pellentesque habitant morbinunc.Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
+  },
+  {
+    id: 4,
+    image: outdoor,
+    title: "OUTDOOR",
+    text: "Vitae sapien pellentesque habitant morbinunc.Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
+  }
+];
 export const process = {
   info: "Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus.Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc.Viverra aliquet eget sit amet tellus.Ornare lectus sit amet est placerat in.Lectus magna fringilla urna porttitor rhoncus vitae.",
   inner: [

@@ -4,21 +4,21 @@
   align-items: start;
 }
 
-.AboutSection__title {
+.header__title {
   width: 100%;
 }
 
-.AboutSection__subtitle {
+.header__subtitle {
   gap: 30px;
 }
 
-.AboutSection__subtitle .subtitle {
+.header__subtitle .subtitle {
   width: max-content;
 }
 
 .AboutSection__header p {
   width: 100%;
-  max-width: 620px;
+  max-width: 600px;
 }
 
 .AboutSection__content {
@@ -43,10 +43,6 @@
 @media (max-width: 1040px) {
   .AboutSection__content {
     flex-direction: column;
-  }
-
-  .AboutSection__content img {
-    width: 100%;
   }
 
   .AboutSection__text {

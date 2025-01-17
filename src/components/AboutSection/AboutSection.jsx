@@ -7,9 +7,9 @@ const AboutSection = () => {
     <>
       <section className="AboutSection container">
         <div className="AboutSection__header flex">
-          <div className="AboutSection__title titleDiv">
+          <div className="header__title titleDiv">
             <h1 className="title">INTRODUCTION</h1>
-            <div className="AboutSection__subtitle flex">
+            <div className="header__subtitle flex">
               <h2 className="subtitle">TO HYDRA VR</h2>
               <img src={about.icon} className="icon hide-on-small"></img>
             </div>
