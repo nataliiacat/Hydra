@@ -57,19 +57,19 @@ const ServicesSection = () => {
             <h1 className="title">WHY BUILD</h1>
             <div className="header__subtitle flex">
               <h2 className="subtitle">WITH HYDRA?</h2>
-              <img src={about.icon} className="icon hide-on-small"></img>
+              <img src={about.icon} className="icon hide-on-small"/>
             </div>
           </div>
           <p className="text hide-on-small">{services.info}</p>
         </div>
-        <div className="slider-btns">
-          <button onClick={handlePrev} className="slider-btn prev-btn btn"><IoIosArrowBack className="icon" /></button>
-          <button onClick={handleNext} className="slider-btn next-btn btn"><IoIosArrowForward className="icon" /></button></div>
         <div />
-        <div className="slider">
+        <div className="slider flex">
+          <button onClick={handlePrev} className="slider-btn prev-btn btn">
+            <IoIosArrowBack className="icon" />
+          </button>
           <div className="slider-grid">
             {visibleServices.map((slider) => (
-              <div key={slider.id} className="services">
+              <div key={slider.id} className="services flex">
                 <img
                   src={slider.image}
                   alt={slider.title}
@@ -81,6 +81,9 @@ const ServicesSection = () => {
               </div>
             ))}
           </div>
+          <button onClick={handleNext} className="slider-btn next-btn btn">
+            <IoIosArrowForward className="icon" />
+          </button>
         </div>
       </section>
     </>
