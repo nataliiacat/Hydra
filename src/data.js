@@ -4,6 +4,10 @@ import simulation from './assets/images/simulator.jpg';
 import education from './assets/images/education.jpg';
 import self from './assets/images/selfcare.jpg';
 import outdoor from './assets/images/outdoor.jpg';
+import unreal from './assets/images/unreal.svg';
+import unity from './assets/images/unity.svg';
+import oculus from './assets/images/oculus.svg';
+import vive from './assets/images/vive.svg';
 
 export const about = {
   image: aboutimg,
@@ -41,6 +45,30 @@ export const slider = [
     text: "Vitae sapien pellentesque habitant morbinunc.Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae."
   }
 ];
+
+export const tech = [
+  {
+    id: 1,
+    src: unreal,
+    alt: unreal,
+  },
+  {
+    id: 2,
+    src: unity,
+    alt: unity,
+  },
+  {
+    id: 3,
+    src: oculus,
+    alt: oculus,
+  },
+  {
+    id: 4,
+    src: vive,
+    alt: vive,
+  }
+];
+
 export const process = {
   info: "Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus.Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc.Viverra aliquet eget sit amet tellus.Ornare lectus sit amet est placerat in.Lectus magna fringilla urna porttitor rhoncus vitae.",
   inner: [

@@ -97,7 +97,11 @@ section {
   fill: var(--accent-color);
   color: var(--accent-color);
 }
-
+.grid{
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
 .flex {
   display: flex;
   align-items: center;

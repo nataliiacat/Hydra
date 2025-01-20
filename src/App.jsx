@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import HomeSection from './components/HomeSection/HomeSection'
 import AboutSection from './components/AboutSection/AboutSection'
 import ServicesSection from './components/ServicesSection/ServicesSection'
+import TechSection from './components/TechSection/TechSection'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <HomeSection/>
     <AboutSection/>
     <ServicesSection/>
+    <TechSection/>
     </>
   )
 }

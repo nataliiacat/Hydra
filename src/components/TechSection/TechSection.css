@@ -1,0 +1,43 @@
+.techContent {
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75)),
+    url(../../assets/images/techimg.png);
+  border-radius: 150px;
+  width: 100%;
+  padding: 100px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.TechSection .btn {
+  border: 10px solid var(--secondary-primary-color);
+  width: max-content;
+  margin: -20px auto 0;
+}
+
+.company {
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.company-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .company {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .techContent {
+    border-radius: 50px;
+    width: 100%;
+    padding: 75px;
+  }
+}
