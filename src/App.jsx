@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection/AboutSection'
 import ServicesSection from './components/ServicesSection/ServicesSection'
 import TechSection from './components/TechSection/TechSection'
 import ProcessSection from './components/ProcessSection/ProcessSection'
+import OptInSection from './components/OptInSection/OptInSection'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <ServicesSection/>
     <TechSection/>
     <ProcessSection/>
+    <OptInSection/>
     </>
   )
 }
