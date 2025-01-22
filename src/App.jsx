@@ -7,6 +7,7 @@ import ServicesSection from './components/ServicesSection/ServicesSection'
 import TechSection from './components/TechSection/TechSection'
 import ProcessSection from './components/ProcessSection/ProcessSection'
 import OptInSection from './components/OptInSection/OptInSection'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <TechSection/>
     <ProcessSection/>
     <OptInSection/>
+    <Footer/>
     </>
   )
 }
