@@ -4,7 +4,7 @@ import './OptInSection.css'
 const OptInSection = () => {
   return (
     <>
-      <article className="OptIn container">
+      <article className="OptIn container" id="OptIn">
         <div className="form-container">
           <div className="titleDiv">
             <h1 className="title">Join Hydra</h1>

@@ -9,17 +9,24 @@ import ProcessSection from './components/ProcessSection/ProcessSection'
 import OptInSection from './components/OptInSection/OptInSection'
 import Footer from './components/Footer/Footer'
 
+const scrollToSection = (sectionId) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
+
 function App() {
   return (
     <>
-    <Header/>
-    <HomeSection/>
-    <AboutSection/>
-    <ServicesSection/>
-    <TechSection/>
-    <ProcessSection/>
-    <OptInSection/>
-    <Footer/>
+      <Header scrollToSection={scrollToSection} />
+      <HomeSection />
+      <AboutSection />
+      <ServicesSection />
+      <TechSection />
+      <ProcessSection />
+      <OptInSection />
+      <Footer />
     </>
   )
 }

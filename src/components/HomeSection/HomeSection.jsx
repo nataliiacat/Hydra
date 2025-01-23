@@ -8,7 +8,7 @@ import { BiPhoneCall } from 'react-icons/bi'
 const HomeSection = () => {
   return (
     <>
-      <section className="HomeSection">
+      <section className="HomeSection" id="homeSection">
         <div className="container">
           <div className="contentHome flex">
             <div className="content-text flex">

@@ -5,7 +5,7 @@ import { about } from '../../data.js'
 const AboutSection = () => {
   return (
     <>
-      <section className="AboutSection container">
+      <section className="AboutSection container" id="aboutSection">
         <div className="AboutSection__header flex">
           <div className="header__title titleDiv">
             <h1 className="title">INTRODUCTION</h1>

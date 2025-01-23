@@ -50,7 +50,7 @@ const ServicesSection = () => {
   const visibleServices = getVisibleServices();
   return (
     <>
-      <section className="ServicesSection container" onTouchStart={handleTouchStart}
+      <section className="ServicesSection container" id="servicesSection" onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}>
         <div className="ServicesSection__header flex">
           <div className="header__title titleDiv">

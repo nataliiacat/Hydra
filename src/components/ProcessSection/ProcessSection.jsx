@@ -5,7 +5,7 @@ import { process, about } from '../../data.js'
 const ProcessSection = () => {
 
   return (
-    <section className="process container">
+    <section className="process container" id="processSection">
       <div className="process__header flex">
         <div className="titleDiv">
           <h1 className="title">HOW WE BUILD</h1>

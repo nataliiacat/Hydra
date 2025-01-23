@@ -6,7 +6,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 const TechSection = () => {
   return (
     <>
-      <section className="TechSection container">
+      <section className="TechSection container" id="technologiesSection">
         <div className="techContent titleDiv">
           <h1 className="title">TECHNOLOGIES & HARDWARE</h1>
           <h2 className="subtitle">USED BY HYDRA VR.</h2>
